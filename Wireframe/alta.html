@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERP - Alta Fidelidade</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+        header {
+            width: 100%;
+            background-color: #2e7d32;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            gap: 1em;
+            width: 90%;
+            max-width: 1200px;
+            height: 80vh;
+            margin: 1em auto;
+        }
+        .module {
+            border: 2px solid #aaa;
+            padding: 1em;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 0.5em;
+            color: #333;
+        }
+        .description {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 1em;
+        }
+        .button {
+            width: 80%;
+            height: 30px;
+            margin: 0.5em 0;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9em;
+            position: relative;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .button i {
+            margin-right: 8px;
+            font-style: normal;
+        }
+        /* Posicionamento dos itens no grid */
+        .alerts {
+            grid-column: 1 / span 3;
+            grid-row: 1;
+        }
+        .performance {
+            grid-column: 1 / span 3;
+            grid-row: 2 / span 3;
+        }
+        .clients {
+            grid-column: 4;
+            grid-row: 1 / span 2;
+        }
+        .stock {
+            grid-column: 4;
+            grid-row: 3 / span 2;
+        }
+        /* Centralização do gráfico */
+        .chart-container {
+            width: 100%;
+            max-width: 500px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1em;
+        }
+        /* Estilos do Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 0.3s ease;
+        }
+        .modal-content {
+            background-color: #fff;
+            padding: 20px;
+            width: 300px;
+            border-radius: 8px;
+            text-align: left;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        .modal-content h3 {
+            margin-bottom: 0.5em;
+            color: #2e7d32;
+            font-size: 1.2em;
+        }
+        .close-button {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 4px;
+            margin-top: 1em;
+        }
+        /* Animações */
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sistema ERP - Alta Fidelidade</h1>
+</header>
+
+<div class="container">
+    <!-- Alertas e Notificações -->
+    <div class="module alerts">
+        <h2>Alertas e Notificações</h2>
+        <p class="description">Notificações para estoque baixo e vencimento de contas</p>
+        <button class="button" onclick="popupManager.openPopup('Estoque Baixo', 'Produtos críticos: Produto A (5 unidades), Produto B (8 unidades)')">
+            <i>🔔</i> Alerta de Estoque Baixo
+        </button>
+        <button class="button" onclick="popupManager.openPopup('Vencimento de Conta', 'Clientes com pagamentos próximos: Cliente X, Cliente Y')">
+            <i>💳</i> Alerta de Vencimento
+        </button>
+    </div>
+
+    <!-- Painel de Análise de Desempenho -->
+    <div class="module performance">
+        <h2>Painel de Análise de Desempenho</h2>
+        <p class="description">Vendas Totais: R$ 150.000 | Produtos Vendidos: 5.200</p>
+        <div class="chart-container">
+            <canvas id="salesChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Cadastro de Clientes -->
+    <div class="module clients">
+        <h2>Cadastro de Clientes</h2>
+        <p class="description">Gestão de clientes e histórico de crédito</p>
+        <button class="button" onclick="popupManager.openPopup('Adicionar Cliente', 'Formulário para adicionar um novo cliente ao sistema')">
+            <i>👤</i> Adicionar Cliente
+        </button>
+        <button class="button" onclick="popupManager.openPopup('Visualizar Clientes', 'Lista completa de clientes: Cliente X, Cliente Y, Cliente Z')">
+            <i>📋</i> Visualizar Clientes
+        </button>
+    </div>
+
+    <!-- Controle de Estoque -->
+    <div class="module stock">
+        <h2>Cadastro e Controle de Estoque</h2>
+        <p class="description">Gestão de inventário e controle de produtos</p>
+        <button class="button" onclick="popupManager.openPopup('Adicionar Produto', 'Formulário para cadastro de novo produto no sistema')">
+            <i>📦</i> Adicionar Produto
+        </button>
+        <button class="button" onclick="popupManager.openPopup('Verificar Estoque', 'Itens em estoque: Produto A - 20 unidades, Produto B - 15 unidades')">
+            <i>🔍</i> Verificar Estoque
+        </button>
+    </div>
+</div>
+
+<!-- Template do Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+        <button class="close-button" onclick="popupManager.closePopup()">Fechar</button>
+    </div>
+</div>
+
+<footer>
+    <p style="text-align: center; padding: 1em;">Projeto ERP - Casa Nunes e Inovatech</p>
+</footer>
+
+<script>
+    // Classe PopupManager para gerenciar a abertura e fechamento dos pop-ups
+    class PopupManager {
+        constructor() {
+            this.modal = document.getElementById('modal');
+            this.modalTitle = document.getElementById('modal-title');
+            this.modalDescription = document.getElementById('modal-description');
+        }
+
+        // Abre o pop-up com o título e descrição específicos
+        openPopup(title, description) {
+            this.modalTitle.textContent = title;
+            this.modalDescription.textContent = description;
+            this.modal.style.display = 'flex';
+        }
+
+        // Fecha o pop-up
+        closePopup() {
+            this.modal.style.display = 'none';
+        }
+    }
+
+    // Instância de PopupManager para controlar os modais
+    const popupManager = new PopupManager();
+
+    // Configuração do gráfico de vendas usando Chart.js
+    const ctx = document.getElementById('salesChart').getContext('2d');
+    const salesChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio'],
+            datasets: [{
+                label: 'Vendas (em R$)',
+                data: [12000, 19000, 30000, 50000, 75000],
+                borderColor: '#4CAF50',
+                borderWidth: 2,
+                fill: false,
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'top'
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
