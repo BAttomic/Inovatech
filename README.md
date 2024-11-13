@@ -26,12 +26,6 @@ O grande desafio foi digitalizar os processos arcaicos de uma loja tradicional, 
 ## Contexto
 A Casa Nunes, conhecida por seu excelente atendimento ao cliente, enfrentava dificuldades com a gestão manual de estoque, vendas e contabilidade. A dependência de processos manuais não só atrasava as operações, mas também aumentava o risco de erros, prejudicando a experiência do cliente e a eficiência da loja.
 
-## Usuários do Sistema e Personas
-Desenvolvemos o sistema pensando em nossas principais personas:
-- **Joana, Gerente da Loja**: Necessita de ferramentas para gerenciar estoques e relatórios de vendas de maneira eficaz.
-- **Ricardo, Vendedor**: Busca simplificar o processo de vendas e melhorar a interação com os clientes.
-- **Eliane, Administradora Financeira**: Precisa de um sistema confiável para gerenciar transações financeiras e produzir relatórios contábeis precisos.
-
 ## Problemas Identificados
 Os principais problemas que necessitavam de solução incluíam:
 - **Inconsistências no Estoque**: Desafios em manter a precisão do estoque.
