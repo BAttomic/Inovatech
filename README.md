@@ -113,13 +113,12 @@ Os wireframes foram criados para demonstrar o fluxo principal do sistema, inclui
 
 # Protótipo de Alta Fidelidade
 Os protótipos de alta fidelidade foram criados para oferecer uma visualização clara de como o sistema será implementado. Acesse os protótipos abaixo:
-- [Interface Inicial](https://github.com/BAttomic/Inovatech/raw/main/assets/Wireframe/inicial.html)
-- [Prototipação Intermediária](https://github.com/BAttomic/Inovatech/raw/main/assets/Wireframe/intermediario.html)
+- [Wireframe Inicial](https://github.com/BAttomic/Inovatech/raw/main/assets/Wireframe/inicial.html)
+- [Interface Intermediária](https://github.com/BAttomic/Inovatech/raw/main/assets/Wireframe/intermediario.html)
 - [Prototipação Final](https://github.com/BAttomic/Inovatech/raw/main/assets/Wireframe/alta.html)
 
 # Documentação
 Os seguintes documentos detalham o processo de desenvolvimento e reuniões realizadas:
-- [Especificações do Projeto](https://github.com/BAttomic/Inovatech/raw/main/assets/Especificações%20do%20Projeto.pdf)
 - [Formação da Empresa](https://github.com/BAttomic/Inovatech/raw/main/assets/Contratos/Formacao_de_Empresa.pdf)
 - [Termo de Aceite do Projeto](https://github.com/BAttomic/Inovatech/raw/main/assets/Contratos/Termo_de_Aceite_do_Projeto.pdf)
 
