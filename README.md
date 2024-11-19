@@ -1,78 +1,142 @@
 # Sistema ERP Casa Nunes
 
-## Índice
-- [Introdução](#introdução)
-- [Desafio](#desafio)
-- [Contexto](#contexto)
-- [Usuários do Sistema e Persona Principal](#usuários-do-sistema-e-persona-principal)
-- [Problemas Identificados](#problemas-identificados)
-- [Desenvolvimento](#desenvolvimento)
-  - [Sprint 1](#sprint-1)
-  - [Sprint 2](#sprint-2)
-  - [Sprint 3](#sprint-3)
-  - [Sprint 4](#sprint-4)
-  - [Sprint 5](#sprint-5)
-- [Mapa de Empatia e Persona](#mapa-de-empatia-e-persona)
-- [Resultados](#resultados)
-- [Conclusão](#conclusão)
-- [Wireframe](#wireframe)
+<p align="center">
+   <img src="https://via.placeholder.com/300x150.png?text=Logo+Casa+Nunes" alt="Logo Casa Nunes">
+</p>
+<p align="center">Figura 1 - Logo da Casa Nunes</p>
 
-## Introdução
-Este documento apresenta o sistema ERP desenvolvido para a Casa Nunes, uma loja que buscava um método mais eficiente para gerenciar suas operações diárias. O ERP trouxe uma nova perspectiva para o negócio, permitindo que tarefas como controle de estoque, vendas e relatórios financeiros fossem realizadas de forma mais rápida e precisa.
+---
 
-## Desafio
-O principal desafio era substituir processos manuais, que não só consumiam muito tempo mas também levavam a erros recorrentes, por um sistema digital integrado. Esse sistema deveria melhorar o fluxo de trabalho na loja, atendendo às necessidades específicas do gerente, dos vendedores e do administrador.
+# Visão Geral
+
+## O Desafio
+Desenvolver um sistema ERP que substituísse os processos manuais da Casa Nunes, promovendo a eficiência nas operações, como controle de estoque, vendas e análise de desempenho. O objetivo era criar uma solução personalizada, ágil e acessível tanto via web quanto dispositivos móveis.
 
 ## Contexto
-A Casa Nunes, apesar de conhecida por seu atendimento de qualidade, enfrentava problemas operacionais que comprometiam a eficiência do serviço. A dependência de processos manuais para gerenciar o estoque, realizar vendas e criar relatórios financeiros dificultava o crescimento sustentável da loja e afetava a experiência dos clientes.
+A Casa Nunes é uma loja que enfrentava desafios como imprecisões no controle de estoque, demora no atendimento ao cliente e dificuldades na geração de relatórios. Com a ajuda da equipe **Inovatech**, liderada por Bernardo Cordeiro Motta, foi possível projetar um sistema ERP que resolvesse esses problemas, garantindo crescimento sustentável e satisfação dos usuários.
 
-## Usuários do Sistema
-O sistema foi projetado pensando nos principais usuários da Casa Nunes:
-- **Gerente**: Responsável por supervisionar as operações, acompanhar o desempenho da loja e acessar relatórios para tomada de decisões estratégicas.
-- **Vendedores**: Precisam de um sistema ágil para registrar vendas, consultar o estoque e atender melhor os clientes.
-- **Administrador**: Gerencia as finanças, controle de estoque e realiza análises financeiras e operacionais.
+---
 
-## Mapa de Empatia e Persona
-Dono da Casa Nunes e da empresa de desenvolvimento Inovatech, Bernardo lidera a implementação do ERP, buscando uma solução para melhorar a eficiência da loja e facilitar o trabalho dos colaboradores. Bernardo acompanha de perto o desenvolvimento e direciona as prioridades para atender às necessidades da loja, visando minimizar erros e aumentar a produtividade.
+# WHY?
 
-Para entender profundamente as necessidades e expectativas dos usuários, criamos um mapa de empatia com foco nos seguintes aspectos:
+## Quem utilizará o sistema?
+O sistema ERP foi desenvolvido para atender três perfis principais:
+- **Gerente**: Acompanha o desempenho da loja e acessa relatórios para tomada de decisões estratégicas.
+- **Vendedores**: Realizam vendas e verificam informações de estoque de forma prática.
+- **Administrador**: Gerencia informações financeiras, crediário e estoque.
 
-- **O que sentem**: Frustração com o tempo gasto em tarefas manuais repetitivas e a pressão de garantir a satisfação dos clientes.
-- **O que veem**: O mercado se tornando cada vez mais competitivo, com outras lojas adotando tecnologias mais avançadas.
-- **O que ouvem**: Comentários de clientes sobre a demora no atendimento e sugestões para melhorar o processo de venda.
-- **O que fazem**: Procuram maneiras de agilizar as tarefas diárias e reduzir erros nas transações.
+### Quais seriam os problemas?
+- **Erros no Controle de Estoque**: Falta de precisão e atraso na reposição de produtos.
+- **Demora no Atendimento**: Processos manuais lentos impactavam negativamente a experiência dos clientes.
+- **Dificuldade na Emissão de Relatórios**: Coleta manual e ineficaz de dados para análise.
 
-Acesse o [Mapa de Empatia completo](https://github.com/BAttomic/Inovatech/tree/main/Mapa_de_Empatia).
+---
 
-## Problemas Identificados
-Os problemas mais críticos identificados durante o desenvolvimento incluíam:
-- **Erros de Controle de Estoque**: Dificuldade em manter o estoque atualizado, levando a inconsistências e problemas na reposição de produtos.
-- **Demora no Processo de Venda**: O processo manual tornava o atendimento lento, o que impactava negativamente a experiência do cliente.
-- **Dificuldade na Emissão de Relatórios**: A coleta de dados para relatórios era trabalhosa, dificultando a análise rápida e a tomada de decisões estratégicas.
+# WHO?
 
-## Desenvolvimento
-Para acompanhar o desenvolvimento do sistema, realizamos reuniões regulares e documentamos o progresso em cada sprint. Acompanhe os registros completos das [Reuniões](https://github.com/BAttomic/Inovatech/tree/main/Reuniões).
+## Persona
+A persona foi criada com base nas necessidades e expectativas do cliente:
+<p align="center">
+   <img src="https://via.placeholder.com/300x150.png?text=Persona" alt="Persona">
+</p>
+<p align="center">Figura 2 - Persona</p>
 
-### Sprint 1
-No início, definimos os requisitos do sistema, estabelecendo as principais funcionalidades e desenhando o fluxo básico.
+**Bernardo Cordeiro Motta**  
+Proprietário da Casa Nunes e líder do projeto, Bernardo buscava uma solução que melhorasse a produtividade da loja e a experiência do cliente, utilizando tecnologia como ferramenta central.
 
-### Sprint 2
-Desenvolvemos protótipos iniciais e os testamos com os vendedores e o gerente para entender como poderiam melhorar o atendimento e a gestão.
+---
 
-### Sprint 3
-Refinamos o sistema com base nos feedbacks recebidos, adicionando funcionalidades que facilitassem o processo de venda e o gerenciamento de estoque.
+# Desenvolvimento
 
-### Sprint 4
-Realizamos testes completos, focando na segurança, na estabilidade e na integração de dados entre vendas, estoque e relatórios financeiros.
+O projeto seguiu uma metodologia ágil com cinco sprints:
 
-### Sprint 5
-Lançamento do sistema, treinamento da equipe da loja e monitoramento inicial para ajustes de usabilidade e estabilidade.
+### Sprint 1: Planejamento e Formação da Empresa
+- Definição dos papéis e responsabilidades na equipe **Inovatech**.
+- Revisão do termo de aceite do projeto e definição dos requisitos iniciais&#8203;:contentReference[oaicite:0]{index=0}.
 
-## Wireframe
-Durante o projeto, desenvolvemos um wireframe detalhado para mapear as funcionalidades principais e criar uma experiência de usuário intuitiva. Confira o [Wireframe completo](https://github.com/BAttomic/Inovatech/tree/main/Wireframe).
+### Sprint 2: Prototipação de Baixa Fidelidade
+- Criação de wireframes iniciais e validação com feedback do cliente&#8203;:contentReference[oaicite:1]{index=1}.
 
-## Resultados
-Com a implementação do ERP, a Casa Nunes experimentou uma verdadeira transformação. A precisão no controle de estoque melhorou, as vendas se tornaram mais ágeis e os relatórios financeiros passaram a ser gerados automaticamente, proporcionando insights valiosos para decisões estratégicas.
+### Sprint 3: Desenvolvimento Intermediário
+- Refinamento dos protótipos para média fidelidade, incluindo detalhes de interações&#8203;:contentReference[oaicite:2]{index=2}.
 
-## Conclusão
-O desenvolvimento do sistema ERP para a Casa Nunes foi mais do que uma simples atualização tecnológica — ele representou uma nova fase para a loja, que agora opera de forma mais eficiente e ágil. Esse sistema não só atendeu às necessidades da loja, mas também preparou o caminho para um crescimento sustentável no futuro.
+### Sprint 4: Prototipação de Alta Fidelidade
+- Implementação dos elementos finais e revisão com o cliente para ajustes&#8203;:contentReference[oaicite:3]{index=3}.
+
+### Sprint 5: Apresentação Final
+- Revisão geral do sistema, documentação e validação das entregas&#8203;:contentReference[oaicite:4]{index=4}.
+
+---
+
+# Requisitos
+
+O sistema foi desenvolvido para atender os seguintes requisitos:
+1. **Cadastro e Controle de Estoque**:
+   - Registro detalhado de produtos.
+   - Controle em tempo real de entradas e saídas de estoque&#8203;:contentReference[oaicite:5]{index=5}.
+
+2. **Cadastro de Clientes e Crediário**:
+   - Histórico completo de compras e alertas sobre pagamentos pendentes&#8203;:contentReference[oaicite:6]{index=6}.
+
+3. **Painel de Análise de Desempenho**:
+   - Gráficos de vendas e status financeiro&#8203;:contentReference[oaicite:7]{index=7}.
+
+4. **Alertas e Notificações**:
+   - Notificações sobre estoque baixo e vencimento de contas&#8203;:contentReference[oaicite:8]{index=8}.
+
+5. **Interface Web e Mobile**:
+   - Design responsivo e intuitivo para acesso em múltiplos dispositivos&#8203;:contentReference[oaicite:9]{index=9}.
+
+---
+
+# Wireframe
+
+Os wireframes detalham a estrutura inicial do sistema e a experiência do usuário:
+<p align="center">
+   <img src="https://via.placeholder.com/300x150.png?text=Wireframe" alt="Wireframe">
+</p>
+<p align="center">Figura 3 - Wireframe inicial</p>
+
+Para mais detalhes, acesse o [Protótipo de Alta Fidelidade](https://github.com/BAttomic/Inovatech/tree/main).
+
+---
+
+# Resultados
+
+Após a implementação:
+- **Precisão no Controle de Estoque**: Redução de erros e aumento da eficiência.
+- **Agilidade nas Vendas**: Processos otimizados garantiram atendimento mais rápido.
+- **Relatórios Automatizados**: Decisões estratégicas baseadas em análises detalhadas.
+
+---
+
+# Conclusão
+
+Sob a liderança de **Bernardo Cordeiro Motta**, a equipe **Inovatech** entregou um sistema ERP que não apenas atendeu às necessidades da Casa Nunes, mas também criou uma base sólida para seu crescimento futuro. O projeto representa um marco na modernização das operações da loja.
+
+---
+
+# Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://via.placeholder.com/100" width=115>
+      <br>
+      <b>Bernardo Cordeiro Motta</b>
+      <br>CIO & Gerente do Projeto
+    </td>
+    <td align="center">
+      <img src="https://via.placeholder.com/100" width=115>
+      <br>
+      <b>Samuel Henrique</b>
+      <br>Analista & Scrum Master
+    </td>
+    <td align="center">
+      <img src="https://via.placeholder.com/100" width=115>
+      <br>
+      <b>Artur da Silva Coelho</b>
+      <br>Product Owner & Designer
+    </td>
+  </tr>
+</table>
