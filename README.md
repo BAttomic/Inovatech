@@ -1,142 +1,154 @@
-# Sistema ERP Casa Nunes
+# Inovatech - Sistema de Gestão Empresarial
 
 <p align="center">
-   <img src="https://via.placeholder.com/300x150.png?text=Logo+Casa+Nunes" alt="Logo Casa Nunes">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Casa_Nunes_Logo.png" alt="Logo Casa Nunes" width="300">
 </p>
-<p align="center">Figura 1 - Logo da Casa Nunes</p>
-
----
+<p align="center"> Figura 1 - Logo da Casa Nunes</p>
 
 # Visão Geral
-
 ## O Desafio
-Desenvolver um sistema ERP que substituísse os processos manuais da Casa Nunes, promovendo a eficiência nas operações, como controle de estoque, vendas e análise de desempenho. O objetivo era criar uma solução personalizada, ágil e acessível tanto via web quanto dispositivos móveis.
+Desenvolver um sistema intuitivo e moderno que atenda às necessidades de uma gestão empresarial completa. O sistema tem como foco principal gerenciar clientes, produtos, pagamentos e estoque de forma otimizada.
 
 ## Contexto
-A Casa Nunes é uma loja que enfrentava desafios como imprecisões no controle de estoque, demora no atendimento ao cliente e dificuldades na geração de relatórios. Com a ajuda da equipe **Inovatech**, liderada por Bernardo Cordeiro Motta, foi possível projetar um sistema ERP que resolvesse esses problemas, garantindo crescimento sustentável e satisfação dos usuários.
-
----
+A Casa Nunes, uma empresa com forte atuação no mercado local, enfrenta desafios na gestão de suas operações devido ao uso de sistemas antiquados e pouco adaptados às suas necessidades. O sistema anterior não possui recursos modernos, como alertas de estoque e notificações de pagamentos, e não reflete a identidade visual da empresa. Este projeto visa solucionar esses problemas, otimizando o fluxo de trabalho e aumentando a produtividade.
 
 # WHY?
-
 ## Quem utilizará o sistema?
-O sistema ERP foi desenvolvido para atender três perfis principais:
-- **Gerente**: Acompanha o desempenho da loja e acessa relatórios para tomada de decisões estratégicas.
-- **Vendedores**: Realizam vendas e verificam informações de estoque de forma prática.
-- **Administrador**: Gerencia informações financeiras, crediário e estoque.
+Após reuniões com a equipe da Casa Nunes, identificamos que o sistema será utilizado principalmente por administradores e gerentes, que necessitam de ferramentas práticas para gerenciar clientes, estoque e fluxo de caixa.
 
 ### Quais seriam os problemas?
-- **Erros no Controle de Estoque**: Falta de precisão e atraso na reposição de produtos.
-- **Demora no Atendimento**: Processos manuais lentos impactavam negativamente a experiência dos clientes.
-- **Dificuldade na Emissão de Relatórios**: Coleta manual e ineficaz de dados para análise.
-
----
+- Interface desatualizada e pouco funcional.
+- Falta de notificações automatizadas para estoques baixos e pagamentos pendentes.
+- Funcionalidades essenciais ausentes, como cadastro eficiente de produtos e clientes.
+- Falta de relatórios para análise de desempenho.
 
 # WHO?
-
 ## Persona
-A persona foi criada com base nas necessidades e expectativas do cliente:
+
+Com base nas entrevistas e reuniões, criamos a seguinte persona para representar os usuários principais:
+
 <p align="center">
-   <img src="https://via.placeholder.com/300x150.png?text=Persona" alt="Persona">
+   <img src="" alt="Persona Bernardo">
 </p>
-<p align="center">Figura 2 - Persona</p>
+<p align="center"> Figura 2 - Persona Bernardo</p>
 
-**Bernardo Cordeiro Motta**  
-Proprietário da Casa Nunes e líder do projeto, Bernardo buscava uma solução que melhorasse a produtividade da loja e a experiência do cliente, utilizando tecnologia como ferramenta central.
+## Mapa de Empatia
+Para compreender melhor as necessidades dos usuários, desenvolvemos um mapa de empatia que destaca os pensamentos e sentimentos do usuário principal.
 
----
-
-# Desenvolvimento
-
-O projeto seguiu uma metodologia ágil com cinco sprints:
-
-### Sprint 1: Planejamento e Formação da Empresa
-- Definição dos papéis e responsabilidades na equipe **Inovatech**.
-- Revisão do termo de aceite do projeto e definição dos requisitos iniciais&#8203;:contentReference[oaicite:0]{index=0}.
-
-### Sprint 2: Prototipação de Baixa Fidelidade
-- Criação de wireframes iniciais e validação com feedback do cliente&#8203;:contentReference[oaicite:1]{index=1}.
-
-### Sprint 3: Desenvolvimento Intermediário
-- Refinamento dos protótipos para média fidelidade, incluindo detalhes de interações&#8203;:contentReference[oaicite:2]{index=2}.
-
-### Sprint 4: Prototipação de Alta Fidelidade
-- Implementação dos elementos finais e revisão com o cliente para ajustes&#8203;:contentReference[oaicite:3]{index=3}.
-
-### Sprint 5: Apresentação Final
-- Revisão geral do sistema, documentação e validação das entregas&#8203;:contentReference[oaicite:4]{index=4}.
-
----
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Mapa_de_Empatia/imagem.png" alt="Mapa de Empatia">
+</p>
+<p align="center"> Figura 3 - Mapa de Empatia</p>
 
 # Requisitos
+**1. Interface visual moderna e intuitiva:**
+- Adotar cores alinhadas com a identidade visual da empresa.
+- Criar um design responsivo para desktop e dispositivos móveis.
 
-O sistema foi desenvolvido para atender os seguintes requisitos:
-1. **Cadastro e Controle de Estoque**:
-   - Registro detalhado de produtos.
-   - Controle em tempo real de entradas e saídas de estoque&#8203;:contentReference[oaicite:5]{index=5}.
+**2. Funcionalidades adicionais:**
+- Alertas automáticos para estoques baixos.
+- Notificações para pagamentos pendentes.
+- Cadastro detalhado de produtos e clientes.
 
-2. **Cadastro de Clientes e Crediário**:
-   - Histórico completo de compras e alertas sobre pagamentos pendentes&#8203;:contentReference[oaicite:6]{index=6}.
+**3. Relatórios gerenciais:**
+- Relatórios de estoque.
+- Relatórios financeiros e de vendas.
 
-3. **Painel de Análise de Desempenho**:
-   - Gráficos de vendas e status financeiro&#8203;:contentReference[oaicite:7]{index=7}.
+**4. Segurança:**
+- Backup automático e funcionalidade de restauração.
 
-4. **Alertas e Notificações**:
-   - Notificações sobre estoque baixo e vencimento de contas&#8203;:contentReference[oaicite:8]{index=8}.
+# Identidade Visual
+A identidade visual foi desenvolvida com base nas cores e estilo da Casa Nunes, destacando tons que refletem a marca de forma moderna e profissional.
 
-5. **Interface Web e Mobile**:
-   - Design responsivo e intuitivo para acesso em múltiplos dispositivos&#8203;:contentReference[oaicite:9]{index=9}.
-
----
-
-# Wireframe
-
-Os wireframes detalham a estrutura inicial do sistema e a experiência do usuário:
 <p align="center">
-   <img src="https://via.placeholder.com/300x150.png?text=Wireframe" alt="Wireframe">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Visual_Identity.png" alt="Identidade Visual" width="500">
 </p>
-<p align="center">Figura 3 - Wireframe inicial</p>
+<p align="center"> Figura 4 - Identidade Visual</p>
 
-Para mais detalhes, acesse o [Protótipo de Alta Fidelidade](https://github.com/BAttomic/Inovatech/tree/main).
+# Wireframes
+### Prototipação
+Os wireframes foram criados para demonstrar o fluxo principal do sistema, incluindo as telas de login, dashboard, e gestão de clientes e produtos.
 
----
+#### Tela Principal
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Main_Frame.png" alt="Wireframe Principal">
+</p>
+<p align="center"> Figura 5 - Tela Principal: Exibe um panorama geral do sistema com informações de estoque, clientes e alertas.</p>
 
-# Resultados
+#### Lista de Clientes
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Client_List.png" alt="Wireframe Clientes">
+</p>
+<p align="center"> Figura 6 - Gestão de Clientes: Lista todos os clientes cadastrados com suas informações e opção de busca e edição.</p>
 
-Após a implementação:
-- **Precisão no Controle de Estoque**: Redução de erros e aumento da eficiência.
-- **Agilidade nas Vendas**: Processos otimizados garantiram atendimento mais rápido.
-- **Relatórios Automatizados**: Decisões estratégicas baseadas em análises detalhadas.
+#### Cadastro de Novo Cliente
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/New_Client.png" alt="Wireframe Novo Cliente">
+</p>
+<p align="center"> Figura 7 - Cadastro de Novo Cliente: Formulário detalhado para adicionar um novo cliente ao sistema.</p>
 
----
+#### Cadastro de Novo Produto
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/New_Product.png" alt="Cadastro Novo Produto">
+</p>
+<p align="center"> Figura 8 - Cadastro de Novo Produto: Tela para adicionar novos produtos ao estoque, com especificação de detalhes e alertas.</p>
 
-# Conclusão
+#### Estoque
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Stock.png" alt="Wireframe Estoque">
+</p>
+<p align="center"> Figura 9 - Estoque: Detalhes sobre os produtos disponíveis, com alertas para itens com estoque baixo.</p>
 
-Sob a liderança de **Bernardo Cordeiro Motta**, a equipe **Inovatech** entregou um sistema ERP que não apenas atendeu às necessidades da Casa Nunes, mas também criou uma base sólida para seu crescimento futuro. O projeto representa um marco na modernização das operações da loja.
+#### Notificações de Pagamentos
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Notify_Next_Payments.png" alt="Notificações de Pagamentos">
+</p>
+<p align="center"> Figura 10 - Notificações: Avisos automáticos sobre pagamentos pendentes ou futuros.</p>
 
----
+#### Alerta de Estoque Baixo
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Alert_Low_Stock.png" alt="Alerta Estoque Baixo">
+</p>
+<p align="center"> Figura 11 - Alerta de Estoque: Destaque visual para produtos que necessitam de reposição imediata.</p>
 
-# Colaboradores
+# Protótipo de Alta Fidelidade
+Os protótipos de alta fidelidade foram criados para oferecer uma visualização clara de como o sistema será implementado. Acesse os protótipos abaixo:
+- [Interface Inicial](https://github.com/BAttomic/Inovatech/raw/main/assets/Wireframe/inicial.html)
+- [Prototipação Intermediária](https://github.com/BAttomic/Inovatech/raw/main/assets/Wireframe/intermediario.html)
+- [Prototipação Final](https://github.com/BAttomic/Inovatech/raw/main/assets/Wireframe/alta.html)
 
+# Documentação
+Os seguintes documentos detalham o processo de desenvolvimento e reuniões realizadas:
+- [Especificações do Projeto](https://github.com/BAttomic/Inovatech/raw/main/assets/Especificações%20do%20Projeto.pdf)
+- [Formação da Empresa](https://github.com/BAttomic/Inovatech/raw/main/assets/Contratos/Formacao_de_Empresa.pdf)
+- [Termo de Aceite do Projeto](https://github.com/BAttomic/Inovatech/raw/main/assets/Contratos/Termo_de_Aceite_do_Projeto.pdf)
+
+## Reuniões de Sprint
+- [Ata Sprint 1](https://github.com/BAttomic/Inovatech/raw/main/assets/Reuniões/Ata_Sprint_1.pdf)
+- [Ata Sprint 2](https://github.com/BAttomic/Inovatech/raw/main/assets/Reuniões/Ata_Sprint_2.pdf)
+- [Ata Sprint 3](https://github.com/BAttomic/Inovatech/raw/main/assets/Reuniões/Ata_Sprint_3.pdf)
+- [Ata Sprint 4](https://github.com/BAttomic/Inovatech/raw/main/assets/Reuniões/Ata_Sprint_4.pdf)
+- [Ata Sprint 5](https://github.com/BAttomic/Inovatech/raw/main/assets/Reuniões/Ata_Sprint_5.pdf)
+
+# ✅ Conclusão
+Este projeto foi desenvolvido com o objetivo de criar uma solução eficiente e moderna para a gestão empresarial. O trabalho colaborativo da equipe Inovatech garantiu uma solução funcional e alinhada às necessidades dos usuários.
+
+# 🤝 Colaboradores do Projeto
 <table>
   <tr>
     <td align="center">
-      <img src="https://via.placeholder.com/100" width=115>
+      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Samuel.jpg" width="115" height="115" style="border-radius: 50%;">
       <br>
-      <b>Bernardo Cordeiro Motta</b>
-      <br>CIO & Gerente do Projeto
+      <b>Samuel Oliveira</b>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/100" width=115>
+      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Bernardo.jpg" width="115" height="115" style="border-radius: 50%;">
       <br>
-      <b>Samuel Henrique</b>
-      <br>Analista & Scrum Master
+      <b>Bernardo Silva</b>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/100" width=115>
+      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/placeholder.png" width="115" height="115" style="border-radius: 50%;">
       <br>
-      <b>Artur da Silva Coelho</b>
-      <br>Product Owner & Designer
+      <b>Arthur Nogueira</b>
     </td>
   </tr>
-</table>
