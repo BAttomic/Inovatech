@@ -26,13 +26,14 @@ Após reuniões com a equipe da Casa Nunes, identificamos que o sistema será ut
 ## Persona
 
 **Nome:** Bernardo Cordeiro Motta  
-**Idade:** 24 anos
-**Cargo:** Dono
-**Objetivo:** Adotar um sistema moderno que facilite a gestão de clientes, estoque e pagamentos, otimizando o fluxo de trabalho.  
+**Idade:** 24 anos  
+**Cargo:** Dono  
+**Objetivo:** Adotar um sistema moderno que facilite a gestão de clientes, estoque e pagamentos, otimizando o fluxo de trabalho.    
 **Desafios:**  
 - Sistemas atuais são confusos e limitados.  
 - Ausência de relatórios claros para análise de desempenho.  
-- Falta de notificações automáticas para estoques baixos e pagamentos pendentes.  
+- Falta de notificações automáticas para estoques baixos e pagamentos pendentes.
+
 **Características:**  
 - Jovem profissional focado em eficiência.  
 - Valoriza soluções práticas e intuitivas.  
