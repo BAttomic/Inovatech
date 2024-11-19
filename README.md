@@ -45,7 +45,7 @@ Para compreender melhor as necessidades dos usuários, desenvolvemos um mapa de 
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Mapa_de_Empatia/imagem.png" alt="Mapa de Empatia">
 </p>
-<p align="center"> Figura 3 - Mapa de Empatia</p>
+<p align="center"> Figura 2 - Mapa de Empatia</p>
 
 # Requisitos
 **1. Interface visual moderna e intuitiva:**
@@ -70,7 +70,7 @@ A identidade visual foi desenvolvida com base nas cores e estilo da Casa Nunes, 
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Visual_Identity.png" alt="Identidade Visual" width="500">
 </p>
-<p align="center"> Figura 4 - Identidade Visual</p>
+<p align="center"> Figura 3 - Identidade Visual</p>
 
 # Wireframes
 ### Prototipação
@@ -80,43 +80,43 @@ Os wireframes foram criados para demonstrar o fluxo principal do sistema, inclui
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Main_Frame.png" alt="Wireframe Principal">
 </p>
-<p align="center"> Figura 5 - Tela Principal: Exibe um panorama geral do sistema com informações de estoque, clientes e alertas.</p>
+<p align="center"> Figura 4 - Tela Principal: Exibe um panorama geral do sistema com informações de estoque, clientes e alertas.</p>
 
 #### Lista de Clientes
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Client_List.png" alt="Wireframe Clientes">
 </p>
-<p align="center"> Figura 6 - Gestão de Clientes: Lista todos os clientes cadastrados com suas informações e opção de busca e edição.</p>
+<p align="center"> Figura 5 - Gestão de Clientes: Lista todos os clientes cadastrados com suas informações e opção de busca e edição.</p>
 
 #### Cadastro de Novo Cliente
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/New_Client.png" alt="Wireframe Novo Cliente">
 </p>
-<p align="center"> Figura 7 - Cadastro de Novo Cliente: Formulário detalhado para adicionar um novo cliente ao sistema.</p>
+<p align="center"> Figura 6 - Cadastro de Novo Cliente: Formulário detalhado para adicionar um novo cliente ao sistema.</p>
 
 #### Cadastro de Novo Produto
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/New_Product.png" alt="Cadastro Novo Produto">
 </p>
-<p align="center"> Figura 8 - Cadastro de Novo Produto: Tela para adicionar novos produtos ao estoque, com especificação de detalhes e alertas.</p>
+<p align="center"> Figura 7 - Cadastro de Novo Produto: Tela para adicionar novos produtos ao estoque, com especificação de detalhes e alertas.</p>
 
 #### Estoque
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Stock.png" alt="Wireframe Estoque">
 </p>
-<p align="center"> Figura 9 - Estoque: Detalhes sobre os produtos disponíveis, com alertas para itens com estoque baixo.</p>
+<p align="center"> Figura 8 - Estoque: Detalhes sobre os produtos disponíveis, com alertas para itens com estoque baixo.</p>
 
 #### Notificações de Pagamentos
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Notify_Next_Payments.png" alt="Notificações de Pagamentos">
 </p>
-<p align="center"> Figura 10 - Notificações: Avisos automáticos sobre pagamentos pendentes ou futuros.</p>
+<p align="center"> Figura 9 - Notificações: Avisos automáticos sobre pagamentos pendentes ou futuros.</p>
 
 #### Alerta de Estoque Baixo
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Alert_Low_Stock.png" alt="Alerta Estoque Baixo">
 </p>
-<p align="center"> Figura 11 - Alerta de Estoque: Destaque visual para produtos que necessitam de reposição imediata.</p>
+<p align="center"> Figura 10 - Alerta de Estoque: Destaque visual para produtos que necessitam de reposição imediata.</p>
 
 # Protótipo de Alta Fidelidade
 Os protótipos de alta fidelidade foram criados para oferecer uma visualização clara de como o sistema será implementado. Acesse os protótipos abaixo:
@@ -145,7 +145,7 @@ Este projeto foi desenvolvido com o objetivo de criar uma solução eficiente e 
     <td align="center">
       <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Samuel.png" width="115" height="115" style="border-radius: 50%;">
       <br>
-      <b>Samuel Henrique de Amorim </b>
+      <b>Samuel Henrique de Amorim</b>
     </td>
     <td align="center">
       <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Bernardo.jpg" width="115" height="115" style="border-radius: 50%;">
@@ -158,3 +158,4 @@ Este projeto foi desenvolvido com o objetivo de criar uma solução eficiente e 
       <b>Artur da Silva Coelho</b>
     </td>
   </tr>
+</table>
