@@ -28,7 +28,7 @@ Após reuniões com a equipe da Casa Nunes, identificamos que o sistema será ut
 Com base nas entrevistas e reuniões, criamos a seguinte persona para representar os usuários principais:
 
 <p align="center">
-   <img src="" alt="Persona Bernardo">
+   <img src="https://github.com/BAttomic/Inovatech/blob/main/assets/Imagens/Persona.jpg" alt="Persona Bernardo">
 </p>
 <p align="center"> Figura 2 - Persona Bernardo</p>
 
@@ -147,7 +147,7 @@ Este projeto foi desenvolvido com o objetivo de criar uma solução eficiente e 
       <b>Bernardo Silva</b>
     </td>
     <td align="center">
-      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/placeholder.png" width="115" height="115" style="border-radius: 50%;">
+      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Arthur.png" width="115" height="115" style="border-radius: 50%;">
       <br>
       <b>Arthur Nogueira</b>
     </td>
