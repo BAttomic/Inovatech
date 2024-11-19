@@ -136,7 +136,7 @@ Este projeto foi desenvolvido com o objetivo de criar uma solução eficiente e 
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Samuel.jpg" width="115" height="115" style="border-radius: 50%;">
+      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Samuel.png" width="115" height="115" style="border-radius: 50%;">
       <br>
       <b>Samuel Henrique de Amorim </b>
     </td>
