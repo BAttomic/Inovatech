@@ -147,7 +147,7 @@ Este projeto foi desenvolvido com o objetivo de criar uma solução eficiente e 
       <b>Bernardo Cordeiro Motta</b>
     </td>
     <td align="center">
-      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Arthur.jpg" width="115" height="115" style="border-radius: 50%;">
+      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Arthur.png" width="115" height="115" style="border-radius: 50%;">
       <br>
       <b>Artur da Silva Coelho</b>
     </td>
