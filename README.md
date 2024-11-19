@@ -25,12 +25,18 @@ Após reuniões com a equipe da Casa Nunes, identificamos que o sistema será ut
 # WHO?
 ## Persona
 
-Com base nas entrevistas e reuniões, criamos a seguinte persona para representar os usuários principais:
-
-<p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/blob/main/assets/Imagens/Persona.jpg" alt="Persona Bernardo">
-</p>
-<p align="center"> Figura 2 - Persona Bernardo</p>
+**Nome:** Bernardo Cordeiro Motta  
+**Idade:** 24 anos
+**Cargo:** Dono
+**Objetivo:** Adotar um sistema moderno que facilite a gestão de clientes, estoque e pagamentos, otimizando o fluxo de trabalho.  
+**Desafios:**  
+- Sistemas atuais são confusos e limitados.  
+- Ausência de relatórios claros para análise de desempenho.  
+- Falta de notificações automáticas para estoques baixos e pagamentos pendentes.  
+**Características:**  
+- Jovem profissional focado em eficiência.  
+- Valoriza soluções práticas e intuitivas.  
+- Busca ferramentas que economizem tempo e aumentem a produtividade da equipe.
 
 ## Mapa de Empatia
 Para compreender melhor as necessidades dos usuários, desenvolvemos um mapa de empatia que destaca os pensamentos e sentimentos do usuário principal.
