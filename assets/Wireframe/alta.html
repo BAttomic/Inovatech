@@ -76,10 +76,6 @@
         .button:hover {
             background-color: #616161;
         }
-        .button i {
-            margin-right: 8px;
-            font-style: normal;
-        }
         .alerts {
             grid-column: 1 / span 3;
             grid-row: 1;
@@ -188,10 +184,10 @@
         <h2>Alertas e Notificações</h2>
         <p class="description">Notificações para estoque baixo e vencimento de contas</p>
         <button class="button" onclick="popupManager.openPopup('Estoque Baixo', generateStockAlert())">
-            <i>🔔</i> Alerta de Estoque Baixo
+            Alerta de Estoque Baixo
         </button>
         <button class="button" onclick="popupManager.openPopup('Vencimento de Conta', generateDueAlert())">
-            <i>💳</i> Alerta de Vencimento
+            Alerta de Vencimento
         </button>
     </div>
 
@@ -207,10 +203,10 @@
         <h2>Cadastro de Clientes</h2>
         <p class="description">Gestão de clientes e histórico de crédito</p>
         <button class="button" onclick="popupManager.openPopup('Adicionar Cliente', generateForm('cliente'))">
-            <i>👤</i> Adicionar Cliente
+            Adicionar Cliente
         </button>
         <button class="button" onclick="popupManager.openPopup('Visualizar Clientes', generateClientList())">
-            <i>📋</i> Visualizar Clientes
+            Visualizar Clientes
         </button>
     </div>
 
@@ -218,10 +214,10 @@
         <h2>Cadastro e Controle de Estoque</h2>
         <p class="description">Gestão de inventário e controle de produtos</p>
         <button class="button" onclick="popupManager.openPopup('Adicionar Produto', generateForm('produto'))">
-            <i>📦</i> Adicionar Produto
+            Adicionar Produto
         </button>
         <button class="button" onclick="popupManager.openPopup('Verificar Estoque', generateStockList())">
-            <i>🔍</i> Verificar Estoque
+            Verificar Estoque
         </button>
     </div>
 </div>
