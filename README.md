@@ -25,9 +25,8 @@ Após reuniões com a equipe da Casa Nunes, identificamos que o sistema será ut
 # WHO?
 ## Persona
 Criamos esta persona para representar o gerente da empresa, evidenciando suas dores e necessidades em relação à gestão empresarial.
-
 <p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Persona.jpg" alt="Persona do Gerente" width="500">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Persona.jpg" alt="Persona do Gerente" width="1080" height="640" style="border-radius: 50%;">
 </p>
 <p align="center"> Figura 2 - Persona criada para representar o gerente.</p>
 
