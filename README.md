@@ -101,9 +101,13 @@ Figura 8 - Estoque: Fornece um panorama geral do inventário com a quantidade at
 ![Notificações de Pagamentos](./assets/Imagens/Notify_Next_Payments.png)
 Figura 9 - Notificações: Mostra alertas detalhados sobre vencimentos futuros ou atrasos de pagamentos, permitindo que os administradores priorizem ações financeiras e mantenham a saúde do fluxo de caixa.
 
+#### Adicionar Novo Boleto/Conta
+![Adicionar Novo Boleto/Conta](./assets/Imagens/New_Payment.png)
+Figura 10 - Adicionar Novo Boleto/Conta: Formulário que permite a inserção de novas contas ou boletos, incluindo descrição, valor e data de vencimento. Essa funcionalidade possibilita manter um controle atualizado e centralizado das contas a pagar.
+
 #### Alerta de Estoque Baixo
 ![Alerta de Estoque Baixo](./assets/Imagens/Alert_Low_Stock.png)
-Figura 10 - Alerta de Estoque: Lista produtos com níveis críticos de estoque, ordenados por prioridade. Inclui links diretos para ações de reposição, facilitando a tomada de decisão em tempo real.
+Figura 11 - Alerta de Estoque: Lista produtos com níveis críticos de estoque, ordenados por prioridade. Inclui links diretos para ações de reposição, facilitando a tomada de decisão em tempo real.
 
 # Protótipo de Alta Fidelidade
 Os protótipos de alta fidelidade foram criados para oferecer uma visualização clara de como o sistema será implementado. Acesse os protótipos abaixo:
