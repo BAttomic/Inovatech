@@ -24,20 +24,12 @@ Após reuniões com a equipe da Casa Nunes, identificamos que o sistema será ut
 
 # WHO?
 ## Persona
+Criamos esta persona para representar o gerente da empresa, evidenciando suas dores e necessidades em relação à gestão empresarial.
 
-**Nome:** Bernardo Cordeiro Motta  
-**Idade:** 24 anos  
-**Cargo:** Dono  
-**Objetivo:** Adotar um sistema moderno que facilite a gestão de clientes, estoque e pagamentos, otimizando o fluxo de trabalho.    
-**Desafios:**  
-- Sistemas atuais são confusos e limitados.  
-- Ausência de relatórios claros para análise de desempenho.  
-- Falta de notificações automáticas para estoques baixos e pagamentos pendentes.
-
-**Características:**  
-- Jovem profissional focado em eficiência.  
-- Valoriza soluções práticas e intuitivas.  
-- Busca ferramentas que economizem tempo e aumentem a produtividade da equipe.
+<p align="center">
+   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Persona.jpg" alt="Persona do Gerente" width="500">
+</p>
+<p align="center"> Figura 2 - Persona criada para representar o gerente.</p>
 
 ## Mapa de Empatia
 Para compreender melhor as necessidades dos usuários, desenvolvemos um mapa de empatia que destaca os pensamentos e sentimentos do usuário principal.
@@ -45,7 +37,7 @@ Para compreender melhor as necessidades dos usuários, desenvolvemos um mapa de 
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Mapa_de_Empatia/imagem.png" alt="Mapa de Empatia">
 </p>
-<p align="center"> Figura 2 - Mapa de Empatia</p>
+<p align="center"> Figura 3 - Mapa de Empatia</p>
 
 # Requisitos
 **1. Interface visual moderna e intuitiva:**
@@ -70,7 +62,7 @@ A identidade visual foi desenvolvida com base nas cores e estilo da Casa Nunes, 
 <p align="center">
    <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Visual_Identity.png" alt="Identidade Visual" width="500">
 </p>
-<p align="center"> Figura 3 - Identidade Visual</p>
+<p align="center"> Figura 4 - Identidade Visual</p>
 
 # Wireframes
 
@@ -79,35 +71,35 @@ Os wireframes foram criados para demonstrar o fluxo principal do sistema, inclui
 
 #### Tela Principal
 ![Tela Principal](./assets/Imagens/Main_Frame.png)
-Figura 4 - Tela Principal: Exibe uma visão centralizada do sistema, permitindo acesso rápido a informações críticas como status do estoque, desempenho de vendas e notificações sobre clientes e vencimentos. O gráfico de vendas oferece uma análise de tendências mensais.
+Figura 5 - Tela Principal: Exibe uma visão centralizada do sistema, permitindo acesso rápido a informações críticas como status do estoque, desempenho de vendas e notificações sobre clientes e vencimentos. O gráfico de vendas oferece uma análise de tendências mensais.
 
 #### Lista de Clientes
 ![Gestão de Clientes](./assets/Imagens/Client_List.png)
-Figura 5 - Gestão de Clientes: Apresenta todos os clientes cadastrados com filtros de busca para localizar rapidamente registros específicos. Permite também visualizar ou editar informações de cada cliente, incluindo crediário.
+Figura 6 - Gestão de Clientes: Apresenta todos os clientes cadastrados com filtros de busca para localizar rapidamente registros específicos. Permite também visualizar ou editar informações de cada cliente, incluindo crediário.
 
 #### Cadastro de Novo Cliente
 ![Cadastro de Novo Cliente](./assets/Imagens/New_Client.png)
-Figura 6 - Cadastro de Novo Cliente: Um formulário estruturado para coleta de informações completas dos clientes, como dados pessoais, contato e endereço. Inclui validação para evitar duplicidade de informações e inconsistências.
+Figura 7 - Cadastro de Novo Cliente: Um formulário estruturado para coleta de informações completas dos clientes, como dados pessoais, contato e endereço. Inclui validação para evitar duplicidade de informações e inconsistências.
 
 #### Cadastro de Novo Produto
 ![Cadastro de Novo Produto](./assets/Imagens/New_Product.png)
-Figura 7 - Cadastro de Novo Produto: Tela para registrar produtos no sistema, incluindo detalhes como nome, código, categoria, quantidade em estoque, preço e fornecedor. Possui campos opcionais para alertas automáticos em casos de estoque mínimo.
+Figura 8 - Cadastro de Novo Produto: Tela para registrar produtos no sistema, incluindo detalhes como nome, código, categoria, quantidade em estoque, preço e fornecedor. Possui campos opcionais para alertas automáticos em casos de estoque mínimo.
 
 #### Estoque
 ![Estoque](./assets/Imagens/Stock.png)
-Figura 8 - Estoque: Fornece um panorama geral do inventário com a quantidade atual de cada produto. Apresenta destaque visual para itens com baixa disponibilidade e permite acesso rápido para reposição ou ajustes.
+Figura 9 - Estoque: Fornece um panorama geral do inventário com a quantidade atual de cada produto. Apresenta destaque visual para itens com baixa disponibilidade e permite acesso rápido para reposição ou ajustes.
 
 #### Notificações de Pagamentos
 ![Notificações de Pagamentos](./assets/Imagens/Notify_Next_Payments.png)
-Figura 9 - Notificações: Mostra alertas detalhados sobre vencimentos futuros ou atrasos de pagamentos, permitindo que os administradores priorizem ações financeiras e mantenham a saúde do fluxo de caixa.
+Figura 10 - Notificações: Mostra alertas detalhados sobre vencimentos futuros ou atrasos de pagamentos, permitindo que os administradores priorizem ações financeiras e mantenham a saúde do fluxo de caixa.
 
 #### Adicionar Novo Boleto/Conta
 ![Adicionar Novo Boleto/Conta](./assets/Imagens/New_Payment.png)
-Figura 10 - Adicionar Novo Boleto/Conta: Formulário que permite a inserção de novas contas ou boletos, incluindo descrição, valor e data de vencimento. Essa funcionalidade possibilita manter um controle atualizado e centralizado das contas a pagar.
+Figura 11 - Adicionar Novo Boleto/Conta: Formulário que permite a inserção de novas contas ou boletos, incluindo descrição, valor e data de vencimento. Essa funcionalidade possibilita manter um controle atualizado e centralizado das contas a pagar.
 
 #### Alerta de Estoque Baixo
 ![Alerta de Estoque Baixo](./assets/Imagens/Alert_Low_Stock.png)
-Figura 11 - Alerta de Estoque: Lista produtos com níveis críticos de estoque, ordenados por prioridade. Inclui links diretos para ações de reposição, facilitando a tomada de decisão em tempo real.
+Figura 12 - Alerta de Estoque: Lista produtos com níveis críticos de estoque, ordenados por prioridade. Inclui links diretos para ações de reposição, facilitando a tomada de decisão em tempo real.
 
 # Protótipo de Alta Fidelidade
 Os protótipos de alta fidelidade foram criados para oferecer uma visualização clara de como o sistema será implementado. Acesse os protótipos abaixo:
