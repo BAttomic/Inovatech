@@ -73,50 +73,37 @@ A identidade visual foi desenvolvida com base nas cores e estilo da Casa Nunes, 
 <p align="center"> Figura 3 - Identidade Visual</p>
 
 # Wireframes
+
 ### Prototipação
 Os wireframes foram criados para demonstrar o fluxo principal do sistema, incluindo as telas de login, dashboard, e gestão de clientes e produtos.
 
 #### Tela Principal
-<p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Main_Frame.png" alt="Wireframe Principal">
-</p>
-<p align="center"> Figura 4 - Tela Principal: Exibe um panorama geral do sistema com informações de estoque, clientes e alertas.</p>
+![Tela Principal](./assets/Imagens/Main_Frame.png)
+Figura 4 - Tela Principal: Exibe uma visão centralizada do sistema, permitindo acesso rápido a informações críticas como status do estoque, desempenho de vendas e notificações sobre clientes e vencimentos. O gráfico de vendas oferece uma análise de tendências mensais.
 
 #### Lista de Clientes
-<p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Client_List.png" alt="Wireframe Clientes">
-</p>
-<p align="center"> Figura 5 - Gestão de Clientes: Lista todos os clientes cadastrados com suas informações e opção de busca e edição.</p>
+![Gestão de Clientes](./assets/Imagens/Client_List.png)
+Figura 5 - Gestão de Clientes: Apresenta todos os clientes cadastrados com filtros de busca para localizar rapidamente registros específicos. Permite também visualizar ou editar informações de cada cliente, incluindo crediário.
 
 #### Cadastro de Novo Cliente
-<p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/New_Client.png" alt="Wireframe Novo Cliente">
-</p>
-<p align="center"> Figura 6 - Cadastro de Novo Cliente: Formulário detalhado para adicionar um novo cliente ao sistema.</p>
+![Cadastro de Novo Cliente](./assets/Imagens/New_Client.png)
+Figura 6 - Cadastro de Novo Cliente: Um formulário estruturado para coleta de informações completas dos clientes, como dados pessoais, contato e endereço. Inclui validação para evitar duplicidade de informações e inconsistências.
 
 #### Cadastro de Novo Produto
-<p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/New_Product.png" alt="Cadastro Novo Produto">
-</p>
-<p align="center"> Figura 7 - Cadastro de Novo Produto: Tela para adicionar novos produtos ao estoque, com especificação de detalhes e alertas.</p>
+![Cadastro de Novo Produto](./assets/Imagens/New_Product.png)
+Figura 7 - Cadastro de Novo Produto: Tela para registrar produtos no sistema, incluindo detalhes como nome, código, categoria, quantidade em estoque, preço e fornecedor. Possui campos opcionais para alertas automáticos em casos de estoque mínimo.
 
 #### Estoque
-<p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Stock.png" alt="Wireframe Estoque">
-</p>
-<p align="center"> Figura 8 - Estoque: Detalhes sobre os produtos disponíveis, com alertas para itens com estoque baixo.</p>
+![Estoque](./assets/Imagens/Stock.png)
+Figura 8 - Estoque: Fornece um panorama geral do inventário com a quantidade atual de cada produto. Apresenta destaque visual para itens com baixa disponibilidade e permite acesso rápido para reposição ou ajustes.
 
 #### Notificações de Pagamentos
-<p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Notify_Next_Payments.png" alt="Notificações de Pagamentos">
-</p>
-<p align="center"> Figura 9 - Notificações: Avisos automáticos sobre pagamentos pendentes ou futuros.</p>
+![Notificações de Pagamentos](./assets/Imagens/Notify_Next_Payments.png)
+Figura 9 - Notificações: Mostra alertas detalhados sobre vencimentos futuros ou atrasos de pagamentos, permitindo que os administradores priorizem ações financeiras e mantenham a saúde do fluxo de caixa.
 
 #### Alerta de Estoque Baixo
-<p align="center">
-   <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Alert_Low_Stock.png" alt="Alerta Estoque Baixo">
-</p>
-<p align="center"> Figura 10 - Alerta de Estoque: Destaque visual para produtos que necessitam de reposição imediata.</p>
+![Alerta de Estoque Baixo](./assets/Imagens/Alert_Low_Stock.png)
+Figura 10 - Alerta de Estoque: Lista produtos com níveis críticos de estoque, ordenados por prioridade. Inclui links diretos para ações de reposição, facilitando a tomada de decisão em tempo real.
 
 # Protótipo de Alta Fidelidade
 Os protótipos de alta fidelidade foram criados para oferecer uma visualização clara de como o sistema será implementado. Acesse os protótipos abaixo:
@@ -136,10 +123,10 @@ Os seguintes documentos detalham o processo de desenvolvimento e reuniões reali
 - [Ata Sprint 4](https://github.com/BAttomic/Inovatech/raw/main/assets/Reuniões/Ata_Sprint_4.pdf)
 - [Ata Sprint 5](https://github.com/BAttomic/Inovatech/raw/main/assets/Reuniões/Ata_Sprint_5.pdf)
 
-# ✅ Conclusão
+# Conclusão
 Este projeto foi desenvolvido com o objetivo de criar uma solução eficiente e moderna para a gestão empresarial. O trabalho colaborativo da equipe Inovatech garantiu uma solução funcional e alinhada às necessidades dos usuários.
 
-# 🤝 Colaboradores do Projeto
+# Colaboradores do Projeto
 <table>
   <tr>
     <td align="center">
