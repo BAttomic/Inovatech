@@ -156,17 +156,6 @@
         .modal-content button:active {
             transform: scale(0.95);
         }
-        .modal-content .close-button {
-            background-color: #9e9e9e;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-        .modal-content .close-button:hover {
-            background-color: #757575;
-            transform: scale(1.05);
-        }
-        .modal-content .close-button:active {
-            transform: scale(0.95);
-        }
         @keyframes fadeIn {
             from {opacity: 0;}
             to {opacity: 1;}
@@ -188,6 +177,9 @@
         </button>
         <button class="button" onclick="popupManager.openPopup('Vencimento de Conta', generateDueAlert())">
             Alerta de Vencimento
+        </button>
+        <button class="button" onclick="popupManager.openPopup('Adicionar Novo Boleto/Conta', generateNewBillForm())">
+            Adicionar Boleto/Conta
         </button>
     </div>
 
@@ -256,14 +248,29 @@
     const popupManager = new PopupManager();
 
     const generateStockAlert = () => {
-        const items = Array.from({ length: 10 }, (_, i) => `Item ${i + 1} - ${Math.floor(Math.random() * 10) + 1} unidades`);
-        return `<ul>${items.map(item => `<li>${item}</li>`).join('')}</ul>`;
+        const lowStockItems = [
+            'Item 1 - 3 unidades',
+            'Item 2 - 4 unidades',
+            'Item 3 - 2 unidades',
+            'Item 4 - 5 unidades',
+            'Item 5 - 1 unidade'
+        ];
+        return `<ul>${lowStockItems.map(item => `<li>${item}</li>`).join('')}</ul>`;
     };
 
     const generateDueAlert = () => {
         const clients = ['Cliente A', 'Cliente B', 'Cliente C'].map(c => `<li>${c} - Crediário vence em 5 dias</li>`).join('');
         const bills = ['Boleto X', 'Conta Y'].map(b => `<li>${b} - Vencimento em 7 dias</li>`).join('');
         return `<h4>Clientes com crediário:</h4><ul>${clients}</ul><h4>Boletos e Contas:</h4><ul>${bills}</ul>`;
+    };
+
+    const generateNewBillForm = () => {
+        return `<form>
+            <label>Descrição: <input type="text" placeholder="Descrição da conta/boleto" required></label><br>
+            <label>Valor: <input type="number" placeholder="Valor (R$)" required></label><br>
+            <label>Data de Vencimento: <input type="date" required></label><br>
+            <button type="submit">Salvar</button>
+        </form>`;
     };
 
     const generateForm = (type) => {
@@ -279,8 +286,19 @@
     };
 
     const generateStockList = () => {
-        const items = Array.from({ length: 10 }, (_, i) => `Item ${i + 1} - ${Math.floor(Math.random() * 100) + 10} unidades`);
-        return `<ul>${items.map(item => `<li>${item}</li>`).join('')}</ul>`;
+        const stockItems = [
+            'Item 1 - 3 unidades',
+            'Item 2 - 4 unidades',
+            'Item 3 - 2 unidades',
+            'Item 4 - 5 unidades',
+            'Item 5 - 1 unidade',
+            'Item 6 - 15 unidades',
+            'Item 7 - 25 unidades',
+            'Item 8 - 18 unidades',
+            'Item 9 - 30 unidades',
+            'Item 10 - 20 unidades'
+        ];
+        return `<ul>${stockItems.map(item => `<li>${item}</li>`).join('')}</ul>`;
     };
 
     const ctx = document.getElementById('salesChart').getContext('2d');
