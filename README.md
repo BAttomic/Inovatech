@@ -123,21 +123,11 @@ Este projeto foi desenvolvido com o objetivo de criar uma solução eficiente e 
 
 # Colaboradores do Projeto
 <table>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Samuel.png" width="115" height="115" style="border-radius: 50%;">
-      <br>
-      <b>Samuel Henrique de Amorim</b>
-    </td>
+  <tr> <!-- Samuel e Arthur removidos por não terem feito nada :) -->
     <td align="center">
       <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Bernardo.jpg" width="115" height="115" style="border-radius: 50%;">
       <br>
-      <b>Bernardo Cordeiro Motta</b>
-    </td>
-    <td align="center">
-      <img src="https://github.com/BAttomic/Inovatech/raw/main/assets/Imagens/Arthur.png" width="115" height="115" style="border-radius: 50%;">
-      <br>
-      <b>Artur da Silva Coelho</b>
+      <b>Bernardo Cordeiro Motta</b> 
     </td>
   </tr>
 </table>
